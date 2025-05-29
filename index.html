@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Создание и продвижение аккаунтов</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #ff4b2b;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #ff3a1a;
+  }
+
+  section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+  }
+
+  .services, .reasons, .reviews, .pricing, .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 15px;
+  }
+
+  .card h3 {
+    margin-top: 0;
+    color: #ff4b2b;
+  }
+
+  .review {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 15px;
+    max-width: 600px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  input, textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    padding: 12px;
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #ff3a1a;
+  }
+
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  @media(max-width: 768px){
+    .services, .reasons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Создание и продвижение аккаунтов</h1>
+  <p>Легко, быстро и выгодно. Поможем вам начать и развивать ваш бизнес онлайн!</p>
+  <a href="#contact" class="btn">Оставить заявку</a>
+</header>
+
+<section id="about">
+  <h2>О нас</h2>
+  <p style="max-width:800px; margin:auto; text-align:center;">Мы — команда профессионалов, специализирующаяся на создании и продвижении аккаунтов в популярных соцсетях. Помогаем начинающим и бизнесам увеличить аудиторию и повысить доходы.</p>
+</section>
+
+<section id="services">
+  <h2>Наши услуги</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Создание аккаунтов</h3>
+      <p>Создаем аккаунты с нуля под ваши нужды, оформляем профили для привлечения клиентов.</p>
+    </div>
+    <div class="card">
+      <h3>Настройка и оформление</h3>
+      <p>Настраиваем профили, делаем их привлекательными и профессиональными.</p>
+    </div>
+    <div class="card">
+      <h3>Продвижение и реклама</h3>
+      <p>Запускаем рекламные кампании, увеличиваем охваты и привлекаем целевую аудиторию.</p>
+    </div>
+    <div class="card">
+      <h3>Консультации</h3>
+      <p>Помогаем развивать ваши аккаунты, даем советы по контенту и стратегиям.</p>
+    </div>
+  </div>
+</section>
+
+<section id="why-choose-us">
+  <h2>Почему выбирают нас</h2>
+  <div class="reasons">
+    <div class="card">
+      <h3>Быстро и качественно</h3>
+      <p>Работаем эффективно, соблюдая сроки и качество.</p>
+    </div>
+    <div class="card">
+      <h3>Индивидуальный подход</h3>
+      <p>Каждому клиенту — уникальное решение под его цели.</p>
+    </div>
+    <div class="card">
+      <h3>Безопасность</h3>
+      <p>Гарантируем конфиденциальность и безопасность ваших данных.</p>
+    </div>
+    <div class="card">
+      <h3>Гарантированный результат</h3>
+      <p>Помогаем достичь поставленных целей и увеличить показатели.</p>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <h2>Отзывы наших клиентов</h2>
+  <div style="display:flex; flex-direction:column; align-items:center;">
+    <div class="review">
+      <p>"Спасибо за помощь! Мой аккаунт вырос в несколько раз."</p>
+      <strong>- Иван П.</strong>
+    </div>
+    <div class="review">
+      <p>"Профессионалы своего дела, рекомендую."</p>
+      <strong>- Мария К.</strong>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <h2>Стоимость и акции</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Базовый пакет</h3>
+      <p>От 5000 ₽ — создание аккаунта + оформление</p>
+    </div>
+    <div class="card">
+      <h3>Премиум пакет</h3>
+      <p>От 15000 ₽ — создание, оформление + продвижение</p>
+    </div>
+  </div>
+  <p style="text-align:center; margin-top:20px;">Свяжитесь с нами для индивидуального предложения и специальных акций!</p>
+</section>
+
+<section id="contact" style="background-color:#222; color:#fff; padding:40px 20px;">
+  <h2 style="text-align:center;">Свяжитесь с нами</h2>
+  <form id="contact-form">
+    <input type="text" placeholder="Ваше имя" required />
+    <input type="tel" placeholder="Ваш телефон" required />
+    <input type="email" placeholder="Ваш email" required />
+    <textarea rows="4" placeholder="Сообщение"></textarea>
+    <button type="submit">Отправить заявку</button>
+  </form>
+  <div style="margin-top:20px; text-align:center;">
+    <p>Телефон: +7 (900) 123-45-67</p>
+    <p>Email: info@yourservice.com</p>
+    <p>Соцсети: <a href="#" style="color:#ff4b2b;">VK</a> | <a href="#" style="color:#ff4b2b;">Instagram</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 Создание и продвижение аккаунтов. Все права защищены.</p>
+</footer>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Спасибо! Ваша заявка отправлена.');
+    this.reset();
+  });
+</script>
+
+</body>
+</html>
